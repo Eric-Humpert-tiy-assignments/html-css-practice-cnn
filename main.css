@@ -47,10 +47,41 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: sans-serif;
+}
+
+.snippet {
+	padding: 10px;
+}
+
 .column {
-  width: 33.333333%
+	float: left;
+	font-weight: 100;
+	margin: 0 .5%;
+	width: 32.333333%;
 }
 
 .column img {
   width: 100%;
+}
+
+.column h2 {
+	background-color: #F2F2F2;
+	font-weight: bold;
+	padding: .5em;
+}
+
+.column h3 {
+	padding: .5em 0;
+}
+
+.column ul {
+	font-weight: 100;
+}
+
+.column li {
+	border-top: 1px solid #DEDEDE;
+	font-size: .75em;
+	padding: 5px 0;
 }
