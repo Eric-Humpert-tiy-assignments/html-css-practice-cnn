@@ -70,6 +70,7 @@ body {
 	background-color: #F2F2F2;
 	font-weight: bold;
 	padding: .5em;
+	position: relative;
 }
 
 .column h3 {
@@ -84,4 +85,15 @@ body {
 	border-top: 1px solid #DEDEDE;
 	font-size: .75em;
 	padding: 5px 0;
+}
+
+.more-stuff {
+	background-color: #E6E6E6;
+	padding: 8px 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	z-index: 2;
+
 }
